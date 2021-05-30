@@ -44,9 +44,9 @@ export default (() => {
 				<Components.Yura intervalProp="1000" font="900 100px/100px --fontFamily-serifGaramond" width="100px">
 					<Override slot="Looped Text" />
 				</Components.Yura>
-				<Components.Yura delayProp="1000" intervalProp="1000" font="900 100px/100px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif" width="100px" />
-				<Components.Yura delayProp="2000" intervalProp="1000" font="900 100px/100px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif" width="100px" />
 				<Components.Yura delayProp="3000" intervalProp="1000" font="900 100px/100px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif" width="100px" />
+				<Components.Yura delayProp="2000" intervalProp="1000" font="900 100px/100px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif" width="100px" />
+				<Components.Yura delayProp="5000" intervalProp="1000" font="900 100px/100px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif" width="100px" />
 			</Box>
 		</Section>
 		<Link
