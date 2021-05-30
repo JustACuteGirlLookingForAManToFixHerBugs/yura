@@ -48,7 +48,7 @@ export default {
 		"serifTimes": "Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif",
 		"serifGeorgia": "Constantia, 'Lucida Bright', Lucidabright, 'Lucida Serif', Lucida, 'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif",
 		"serifGaramond": "'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif",
-		"googleVt323": "\"VT323\", monospace"
+		"googleXanhMono": "\"Xanh Mono\", monospace"
 	},
 	"font": {
 		"headline1": "normal 900 72px/1.2 --fontFamily-sans",
@@ -152,17 +152,18 @@ export default {
 			}
 		}
 	},
-	"version": 1,
 	"fonts": {
-		"VT323": {
-			"family": "VT323",
+		"Xanh Mono": {
+			"family": "Xanh Mono",
 			"type": "google-fonts",
 			"meta": {
 				"category": "monospace",
 				"variants": [
-					"regular"
+					"regular",
+					"italic"
 				]
 			}
 		}
-	}
+	},
+	"version": 6
 }

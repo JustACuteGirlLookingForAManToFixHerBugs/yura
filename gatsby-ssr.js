@@ -18,7 +18,7 @@ export const onRenderBody = (
         }
     `}</style>,
     
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323:ital,wght@0,400&display=swap" />,
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Xanh%20Mono:ital,wght@0,400;1,400&display=swap" />,
   ]);
 
   setPostBodyComponents([

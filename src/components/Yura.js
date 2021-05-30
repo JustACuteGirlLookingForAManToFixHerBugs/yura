@@ -4,31 +4,16 @@ import QuarklycommunityKitLoopText from "./QuarklycommunityKitLoopText";
 const defaultProps = {
 	"slides": "A,R,U,Y",
 	"width": "50px",
-	"display": "inline-flex",
-	"height": "50px",
-	"font": "900 42px/50.4px --fontFamily-googlePacifico",
-	"color": "#000000",
-	"delayProp": "60"
+	"padding": "0 0px 0 0px",
+	"opacity": "1",
+	"color": "#ffffff",
+	"filter": "contrast(000%) brightness(200%) grayscale(100%)"
 };
 const overrides = {
-	"Before Text": {
-		"props": {
-			"children": <>
-				{" "}
-			</>
-		}
-	},
-	"After Text": {
-		"props": {
-			"children": <>
-				{" "}
-			</>
-		}
-	},
 	"Looped Text": {
 		"props": {
-			"font": "900 100px/50.4px --fontFamily-googleVt323",
-			"color": "#000000"
+			"color": "#ffffff",
+			"font": "normal small-caps 900 100px/100px --fontFamily-googleXanhMono"
 		}
 	}
 };
@@ -39,8 +24,12 @@ const Yura = props => {
 		rest
 	} = useOverrides(props, overrides, defaultProps);
 	return <QuarklycommunityKitLoopText {...rest}>
-		<Override slot="After Text" />
-		<Override slot="Before Text" />
+		<Override slot="After Text">
+			{" "}
+		</Override>
+		<Override slot="Before Text">
+			{" "}
+		</Override>
 		{children}
 	</QuarklycommunityKitLoopText>;
 };

@@ -15,7 +15,14 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section align-content="center" flex-direction="row" display="flex">
+		<Section
+			align-content="center"
+			flex-direction="row"
+			display="flex"
+			background="rgba(0, 0, 0, 0) linear-gradient(-15deg,#040b17 0%,#052722 100%) 0% 0% /auto repeat scroll padding-box"
+			height="100vh"
+			padding="24px 0 0 0"
+		>
 			<Override
 				slot="SectionContent"
 				flex-direction="row"
@@ -32,14 +39,16 @@ export default (() => {
 				flex-direction="row"
 				min-width="100%"
 				min-height="100% "
+				color="#ffffff"
 			>
-				<Components.Yura delayProp="0" />
-				<Components.Yura delayProp="30" />
-				<Components.Yura />
-				<Components.Yura delayProp="90" />
+				<Components.Yura intervalProp="1000" font="900 100px/100px --fontFamily-serifGaramond" width="100px">
+					<Override slot="Looped Text" />
+				</Components.Yura>
+				<Components.Yura delayProp="1000" intervalProp="1000" font="900 100px/100px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif" width="100px" />
+				<Components.Yura delayProp="2000" intervalProp="1000" font="900 100px/100px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif" width="100px" />
+				<Components.Yura delayProp="3000" intervalProp="1000" font="900 100px/100px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif" width="100px" />
 			</Box>
 		</Section>
-		<Box />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
